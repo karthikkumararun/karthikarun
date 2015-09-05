@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<!--POM for WeatherServiceClient core module.
+	Karthik Arun (karthikarun@outlook.com)
+	-->
+  <modelVersion>4.0.0</modelVersion>
+   <parent>
+    <artifactId>WeatherServiceClient-pom</artifactId>
+    <groupId>com.karthik.spring.learning.weatherservice</groupId>
+    <version>1.0-SNAPSHOT</version>
+  </parent>
+  <artifactId>WeatherServiceClient-core</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  <name>WeatherServiceClient-core</name>
+  <packaging>jar</packaging>
+  <dependencies>
+	<dependency>
+		<groupId>com.karthik.spring.learning.weatherservice</groupId>
+		<artifactId>WeatherServiceClient-xml</artifactId>
+		<version>1.0-SNAPSHOT</version>
+	</dependency>
+  </dependencies>
+</project>
