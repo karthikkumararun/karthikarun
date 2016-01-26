@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tns:CustomerDetails xmlns:tns="http://www.example.org/ExampleSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.example.org/ExampleSchema ExampleSchemaWithoutRoot.xsd ">
+  <tns:userName>Karthik</tns:userName>
+  <tns:userEmail>karthikarun@outlook.com</tns:userEmail>
+  <tns:userPhone>9876543210</tns:userPhone>
+  <tns:userLocation>Bangalore</tns:userLocation>
+</tns:CustomerDetails>
